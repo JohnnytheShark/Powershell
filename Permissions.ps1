@@ -1,1 +1,1 @@
-(get-acl folderName).access | ft IdentityReference,FileSystemRights,AccessControlType, IsInherited, InheritanceFlags
+(get-acl (get-location)).access | ft IdentityReference,FileSystemRights,AccessControlType, IsInherited, InheritanceFlags
