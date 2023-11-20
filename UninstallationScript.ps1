@@ -19,7 +19,7 @@ foreach ($program in $uninstall){
             #shutdown /r
         }else{
             $program
-            Start-Process $program
+            cmd /c $program /silent
         }
     }
 
