@@ -15,7 +15,7 @@ function Get-MembersOfGroup {
     $data = @()
     ForEach ($identity in $Identities){
     try {
-        $Members = Get-ADGroupMember -Identity $identity.IdentityReference.ToString().replace("NSCORP\","")
+        $Members = Get-ADGroupMember -Identity $identity.IdentityReference.ToString().replace("DOMAIN\","")
         $MembersString = $Members.name -join ", "
         $data += [pscustomobject]@{Identity=$identity.IdentityReference.ToString();Member=$MembersString}
         }
