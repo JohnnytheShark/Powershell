@@ -13,3 +13,5 @@
 7. PowerShell GUI used to retreive permissions for System Administrators from a folder. It allows the user to select the folder path using a native file explorer window [Permissions GUI](https://github.com/JohnnytheShark/Powershell/blob/main/PermissionsGUI.ps1)
 8. PowerShell Script to transfer permissions from one folder to another. [PermissionsTransfer](https://github.com/JohnnytheShark/Powershell/blob/main/PermissionsTransfer.ps1)
 9. PowerShell Script to uninstall an application off a server. [Uninstall Script](https://github.com/JohnnytheShark/Powershell/blob/main/UninstallationScript.ps1)
+10. PowerShell Script to Archive Files based on a certain date period. [Archive Script](https://github.com/JohnnytheShark/Powershell/blob/main/ArchiveFiles.ps1)
+    
